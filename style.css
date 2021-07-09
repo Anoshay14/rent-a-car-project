@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color:rgb(95, 22, 82);
+    display: flex;
+    font-family: 'Inconsolata', monospace;
+    font-size: larger;
+}
+.roww{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hnav{
+    font-family: 'Inconsolata', monospace;
+    font-size: 27px;
+}
+.navigation {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-left: 390px;
+}
+.navigation > li{
+    font-size: 25px;
+    display: inline;
+    padding: 30px;
+}
+.navigation a{
+    text-decoration: none;
+}
+.navigation a:hover, #login:hover{
+    color: blanchedalmond;
+}
+nav h1{
+    padding-left: 10px;
+}
+nav h2{
+    padding-top: 5px;
+    padding-left: 490px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+.hAdress{
+    color: #853B77;
+    
+}
+#bNavPic{
+    width: 100%;
+    height: 650px;
+}
+#bbNavPic{
+
+}
+/* #q1{
+    text-align: center;
+    color:#853B77;
+    font-family: 'Inconsolata', monospace;
+} */
+#typeCars{
+    display: flex;
+}
+#typeCars img{
+    width: 450px;
+}
+#typeCars h3{
+    text-align: center;
+    color: #853B77;
+    margin-top: -7px;
+}
+#typeCars p{
+    text-align: center;
+}
+#OSC{
+    text-align: center;
+}
+#uPic{
+    width: 100%;
+    margin-top: -100px;
+    
+}
+#th1{
+    margin-top: -600px;
+    color: white;
+    font-size: 70px;
+}
+#s1{
+    height: 120px;
+    width: 120px;
+}
+#s2{
+    margin-left: 50px;
+    height: 120px;
+    width: 120px;
+}
+#s3{
+    margin-left: 50px;
+    height: 120px;
+    width: 120px;
+}
+#s4{
+    height: 120px;
+    width: 120px;
+}
+#s5{
+    margin-left: 50px;
+    height: 120px;
+    width: 120px;
+}
+#s6{
+    margin-left: 50px;
+    height: 120px;
+    width: 120px;
+}
+#uImg{
+    margin-left: 80px;
+}
+#formID{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inconsolata', monospace;
+}
+p{
+    font-size: 18px;
+}
+button{
+    color: white;
+    background-color: rgb(95, 22, 82);
+    width: 100px;
+    height: 45px;
+    border-radius: 10px !important;
+}
+#iul{
+    list-style-type: none;
+    display: inline;
+}
+#iul li{
+    display: inline;
+    padding: 30px;
+}
+#uuImg{
+    width: 100%;
+}
+#OSC{
+    font-family: 'Inconsolata', monospace;
+}
+.card:hover{
+    background-color: lightgray;
+}
+.card-body{
+    font-family: 'Inconsolata', monospace;
+}
+#fsize{
+    font-size: 14pt;
+    font-weight: bold;
+}
+#button1{
+    background-color: rgb(95, 22, 82);
+    border-color: rgb(95, 22, 82);
+}
+#button1:hover{
+    background-color: rgb(196, 101, 178);
+}
+#button2{
+    background-color: rgb(95, 22, 82);
+    border-color: rgb(95, 22, 82);
+}
+#button2:hover{
+    background-color: rgb(196, 101, 178);
+}
+#button3{
+    background-color: rgb(95, 22, 82);
+    border-color: rgb(95, 22, 82);
+}
+#button3:hover{
+    background-color: rgb(196, 101, 178);
+}
+#button4{
+    background-color: rgb(95, 22, 82);
+    border-color: rgb(95, 22, 82);
+}
+#button4:hover{
+    background-color: rgb(196, 101, 178);
+}
+#button5{
+    background-color: rgb(95, 22, 82);
+    border-color: rgb(95, 22, 82);
+}
+#button5:hover{
+    background-color: rgb(196, 101, 178);
+}
+#button6{
+    background-color: rgb(95, 22, 82);
+    border-color: rgb(95, 22, 82);
+}
+#button6:hover{
+    background-color: rgb(196, 101, 178);
+}
+#button7{
+    background-color: rgb(95, 22, 82);
+    border-color: rgb(95, 22, 82);
+}
+#button7:hover{
+    background-color: rgb(196, 101, 178);
+}
+#button8{
+    background-color: rgb(95, 22, 82);
+    border-color: rgb(95, 22, 82);
+}
+#button8:hover{
+    background-color: rgb(196, 101, 178);
+}
+
+input{
+    width: 250px; height: 35px;
+}
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    font-family: 'Lexend', sans-serif;
+   
+  }
+
+  .inp{
+      width: 62%;
+  }
+  .iframe{
+      position: absolute;
+      top: 70%;
+      left: 37%;
+  }
+
+  .col{
+      display: flex !important;
+      justify-content: space-between;
+      position: absolute !important;
+      top: 30%;
+      right: 15%;
+  }
+  .col > ul{
+      list-style-type: none;
+  }
+
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+  #aboutUs{
+      margin-left: 70px;
+      margin-right: 70px;
+      margin-top: 10px;
+      text-align: justify;
+      font-family: 'Lexend', sans-serif;
+  }
+  #AH{
+    font-family: 'Inconsolata', monospace;
+  }
+  #formInp{
+      margin-left: 20px;
+      border: 1px double lightgray;
+      padding-left: 10px;
+      margin-right: 10px;
+      margin-top: -35px;
+      /* padding-right: -20px; */
+  }
+  #btn{
+      background-color: #325D84;
+      color: white;
+  }
+
+  #name{
+      margin-left: 60px;
+  }
+  #lname{
+      margin-left: 15px;
+  }
+  #cnicNo{
+    margin-left: 30px;
+  }
+  #email{
+      margin-left: 45px;
+  }
+  #num{
+      margin-left: 45px;
+  }
+  #message{
+      /* margin-left: 30px; */
+      padding-bottom: 50px;
+      padding-top: 20px;
+      /* margin-top: -50px; */
+  }
+  #text{
+      margin-left: 30px;
+  }
+  iframe{
+      margin-right: 20px;
+      margin-top: -35px;
+  }
+  
+footer{
+    width: 100%;
+    padding: 30px;
+    padding-top: 5px;
+    background-color: black;
+    height: 5em;
+    text-align: center;
+}
+footer > p{
+    color: white;
+    margin-top: 20px;
+    font-size: 20pt;
+    font-family: 'Inconsolata', monospace;
+}
+
